@@ -181,6 +181,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1649197557530
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -189,7 +196,10 @@
     "lastModifiedOn": 1649191853287
   },
   "shortDesc": "The project *Admin_project* was created by Administrator on Apr 05th 2022",
-  "tags": [],
+  "tags": [
+    "tag1",
+    "tag2"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
