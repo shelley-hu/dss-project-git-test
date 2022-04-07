@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649354312147
+    "lastModifiedOn": 1649354529616
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,22 +59,20 @@
   "schema": {
     "columns": [
       {
-        "name": "\u0027PLAYER\u0027",
+        "name": "Player",
         "type": "string",
         "originalType": "VARCHAR",
-        "maxLength": 6
+        "maxLength": 4194304
       },
       {
-        "name": "\u0027MP\u0027",
-        "type": "string",
-        "originalType": "VARCHAR",
-        "maxLength": 2
+        "name": "MP",
+        "type": "double",
+        "originalType": "DOUBLE"
       },
       {
-        "name": "\u0027AGE\u0027",
-        "type": "string",
-        "originalType": "VARCHAR",
-        "maxLength": 3
+        "name": "Age",
+        "type": "bigint",
+        "originalType": "NUMBER"
       }
     ],
     "userModified": true
