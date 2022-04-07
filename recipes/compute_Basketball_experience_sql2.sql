@@ -1,6 +1,0 @@
-SELECT
-    "Player",
-    "MP",
-    "Age"
-FROM
-    "INTEGRATION_TESTS".."BASKETBALLv2_BASKETBALL_EXPERIENCE_SF";
