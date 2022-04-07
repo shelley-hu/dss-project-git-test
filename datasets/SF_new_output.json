@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649357297791
+    "lastModifiedOn": 1649357348927
   },
   "creationTag": {
     "versionNumber": 0,
@@ -49,7 +49,7 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "catalog": "INTEGRATION_TESTS",
-    "table": "SHU_SF_NEW_OUTPUT",
+    "table": "${projectKey}_SF_NEW_OUTPUT",
     "schema": "SCHEMA_TEST",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
