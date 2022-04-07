@@ -1,4 +1,4 @@
 SELECT *
   FROM "BASKETBALLv2_basketball_experience_postgres"
-  WHERE has_TOT == '1';
+  WHERE BASKETBALLv2_basketball_experience_postgres.has_TOT == '1';
   
