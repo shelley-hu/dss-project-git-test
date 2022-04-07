@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649360125415
+    "lastModifiedOn": 1649360251379
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,8 +48,8 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "catalog": "INTEGRATION_TESTS",
-    "table": "BASKETBALLv2_BASKETBALL_EXPERIENCE_SF",
-    "schema": "",
+    "table": "SHU_SF_NEW_OUTPUT",
+    "schema": "SCHEMA_TEST",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
