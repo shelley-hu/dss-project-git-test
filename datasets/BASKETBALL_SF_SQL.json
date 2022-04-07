@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649355914315
+    "lastModifiedOn": 1649356018466
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,24 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Age_min",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Year",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Pos",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
