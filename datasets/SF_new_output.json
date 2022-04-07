@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649356292858
+    "lastModifiedOn": 1649357278095
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,6 +60,12 @@
   "schema": {
     "columns": [
       {
+        "name": "Player",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
         "name": "Age_min",
         "type": "bigint",
         "originalType": "NUMBER"
@@ -74,6 +80,17 @@
         "type": "string",
         "originalType": "VARCHAR",
         "maxLength": 4194304
+      },
+      {
+        "name": "Injury",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "GS",
+        "type": "bigint",
+        "originalType": "NUMBER"
       }
     ],
     "userModified": true
