@@ -3,8 +3,8 @@ SELECT
     "has_TOT"
     "Age_min",
     "Year",
-    "Pos"
-    "Injury"
+    "Pos",
+    "Injury",
     "GS"
 FROM
     "INTEGRATION_TESTS".."BASKETBALLv2_BASKETBALL_EXPERIENCE_SF"
