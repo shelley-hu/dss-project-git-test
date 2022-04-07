@@ -1,6 +1,5 @@
 SELECT
     "Player",
-    "has_TOT",
     "Age_min",
     "Year",
     "Injury",
