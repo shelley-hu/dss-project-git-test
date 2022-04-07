@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649356224627
+    "lastModifiedOn": 1649356270113
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,7 +48,9 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
+    "catalog": "INTEGRATION_TESTS",
     "table": "${projectKey}_SF_NEW_OUTPUT",
+    "schema": "SCHEMA_TEST",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
