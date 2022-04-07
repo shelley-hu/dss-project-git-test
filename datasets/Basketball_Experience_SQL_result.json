@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649352157692
+    "lastModifiedOn": 1649354354969
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,187 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Player",
+        "type": "string",
+        "originalType": "varchar",
+        "maxLength": 4194304
+      },
+      {
+        "name": "1980_sum",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Age_min",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Year",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Pos",
+        "type": "string",
+        "originalType": "varchar",
+        "maxLength": 4194304
+      },
+      {
+        "name": "Age",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Tm",
+        "type": "string",
+        "originalType": "varchar",
+        "maxLength": 4194304
+      },
+      {
+        "name": "has_TOT",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "G",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Injury",
+        "type": "string",
+        "originalType": "varchar",
+        "maxLength": 4194304
+      },
+      {
+        "name": "GS",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "MP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FG",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FGA",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FGP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "3P",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "3PA",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "3PP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "2P",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "2PA",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "2PP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "EFGP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FT",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FTA",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "FTP",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "ORB",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "DRB",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "TRB",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "AST",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "STL",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "BLK",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "TO",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "PF",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "PTS",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "Exp",
+        "type": "double",
+        "originalType": "float8"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
