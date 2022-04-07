@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649355872350
+    "lastModifiedOn": 1649355914315
   },
   "creationTag": {
     "versionNumber": 0,
@@ -49,6 +49,7 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "${projectKey}_BASKETBALL_SF_SQL",
+    "schema": "INTEGRATION_TESTS",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
