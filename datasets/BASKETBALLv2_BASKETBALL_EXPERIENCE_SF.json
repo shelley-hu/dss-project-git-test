@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649360517593
+    "lastModifiedOn": 1649360519790
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,188 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "Player",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "1980_sum",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Age_min",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Year",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Pos",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "Age",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Tm",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "has_TOT",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "G",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Injury",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "GS",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "MP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FG",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FGA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FGP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3P",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3PA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3PP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2P",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2PA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2PP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "EFGP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FT",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FTA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FTP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "ORB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "DRB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "TRB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "AST",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "STL",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "BLK",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "TO",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "PF",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "PTS",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "Exp",
+        "type": "double",
+        "originalType": "DOUBLE"
+      }
+    ],
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
