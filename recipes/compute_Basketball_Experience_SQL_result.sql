@@ -1,4 +1,4 @@
-SELECT Player, Year, Pos, Age
+SELECT *
   FROM "BASKETBALLv2_basketball_experience_postgres"
   WHERE has_TOT == '1';
   
