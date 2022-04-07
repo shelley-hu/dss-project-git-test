@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649360662239
+    "lastModifiedOn": 1649360663713
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,36 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "Player",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "Age_min",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Year",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Injury",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "GS",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      }
+    ],
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
