@@ -6,148 +6,269 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Player",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Player",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Age_min",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Age_min",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Year",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Year",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Pos",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Pos",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Injury",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Injury",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Player",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Age_min",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "Year",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "Pos",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Injury",
+      "type": "string",
       "table": 0
     },
     {
       "name": "GS",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "1980_sum",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "Age",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "Tm",
+      "type": "string",
       "table": 1
     },
     {
       "name": "has_TOT",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "G",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "MP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FG",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FGA",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FGP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "3P",
+      "type": "double",
       "table": 1
     },
     {
       "name": "3PA",
+      "type": "double",
       "table": 1
     },
     {
       "name": "3PP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "2P",
+      "type": "double",
       "table": 1
     },
     {
       "name": "2PA",
+      "type": "double",
       "table": 1
     },
     {
       "name": "2PP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "EFGP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FT",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FTA",
+      "type": "double",
       "table": 1
     },
     {
       "name": "FTP",
+      "type": "double",
       "table": 1
     },
     {
       "name": "ORB",
+      "type": "double",
       "table": 1
     },
     {
       "name": "DRB",
+      "type": "double",
       "table": 1
     },
     {
       "name": "TRB",
+      "type": "double",
       "table": 1
     },
     {
       "name": "AST",
+      "type": "double",
       "table": 1
     },
     {
       "name": "STL",
+      "type": "double",
       "table": 1
     },
     {
       "name": "BLK",
+      "type": "double",
       "table": 1
     },
     {
       "name": "TO",
+      "type": "double",
       "table": 1
     },
     {
       "name": "PF",
+      "type": "double",
       "table": 1
     },
     {
       "name": "PTS",
+      "type": "double",
       "table": 1
     },
     {
       "name": "Exp",
+      "type": "double",
       "table": 1
     }
   ],
@@ -208,5 +329,194 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "originalType": "VARCHAR",
+            "name": "Player",
+            "type": "string",
+            "maxLength": 4194304
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "Age_min",
+            "type": "bigint"
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "Year",
+            "type": "bigint"
+          },
+          {
+            "originalType": "VARCHAR",
+            "name": "Pos",
+            "type": "string",
+            "maxLength": 4194304
+          },
+          {
+            "originalType": "VARCHAR",
+            "name": "Injury",
+            "type": "string",
+            "maxLength": 4194304
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "GS",
+            "type": "bigint"
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "1980_sum",
+            "type": "bigint"
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "Age",
+            "type": "bigint"
+          },
+          {
+            "originalType": "VARCHAR",
+            "name": "Tm",
+            "type": "string",
+            "maxLength": 4194304
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "has_TOT",
+            "type": "bigint"
+          },
+          {
+            "originalType": "NUMBER",
+            "name": "G",
+            "type": "bigint"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "MP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FG",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FGA",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FGP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "3P",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "3PA",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "3PP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "2P",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "2PA",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "2PP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "EFGP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FT",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FTA",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "FTP",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "ORB",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "DRB",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "TRB",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "AST",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "STL",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "BLK",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "TO",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "PF",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "PTS",
+            "type": "double"
+          },
+          {
+            "originalType": "DOUBLE",
+            "name": "Exp",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
