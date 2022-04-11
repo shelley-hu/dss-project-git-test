@@ -1,0 +1,212 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Player",
+      "table": 0
+    },
+    {
+      "name": "Age_min",
+      "table": 0
+    },
+    {
+      "name": "Year",
+      "table": 0
+    },
+    {
+      "name": "Pos",
+      "table": 0
+    },
+    {
+      "name": "Injury",
+      "table": 0
+    },
+    {
+      "name": "GS",
+      "table": 0
+    },
+    {
+      "name": "1980_sum",
+      "table": 1
+    },
+    {
+      "name": "Age",
+      "table": 1
+    },
+    {
+      "name": "Tm",
+      "table": 1
+    },
+    {
+      "name": "has_TOT",
+      "table": 1
+    },
+    {
+      "name": "G",
+      "table": 1
+    },
+    {
+      "name": "MP",
+      "table": 1
+    },
+    {
+      "name": "FG",
+      "table": 1
+    },
+    {
+      "name": "FGA",
+      "table": 1
+    },
+    {
+      "name": "FGP",
+      "table": 1
+    },
+    {
+      "name": "3P",
+      "table": 1
+    },
+    {
+      "name": "3PA",
+      "table": 1
+    },
+    {
+      "name": "3PP",
+      "table": 1
+    },
+    {
+      "name": "2P",
+      "table": 1
+    },
+    {
+      "name": "2PA",
+      "table": 1
+    },
+    {
+      "name": "2PP",
+      "table": 1
+    },
+    {
+      "name": "EFGP",
+      "table": 1
+    },
+    {
+      "name": "FT",
+      "table": 1
+    },
+    {
+      "name": "FTA",
+      "table": 1
+    },
+    {
+      "name": "FTP",
+      "table": 1
+    },
+    {
+      "name": "ORB",
+      "table": 1
+    },
+    {
+      "name": "DRB",
+      "table": 1
+    },
+    {
+      "name": "TRB",
+      "table": 1
+    },
+    {
+      "name": "AST",
+      "table": 1
+    },
+    {
+      "name": "STL",
+      "table": 1
+    },
+    {
+      "name": "BLK",
+      "table": 1
+    },
+    {
+      "name": "TO",
+      "table": 1
+    },
+    {
+      "name": "PF",
+      "table": 1
+    },
+    {
+      "name": "PTS",
+      "table": 1
+    },
+    {
+      "name": "Exp",
+      "table": 1
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "BASKETBALL_SF_SQL",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "BASKETBALLv2_BASKETBALL_EXPERIENCE_SF",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

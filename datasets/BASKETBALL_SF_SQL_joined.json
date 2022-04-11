@@ -1,0 +1,323 @@
+{
+  "type": "PostgreSQL",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1649687786015
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1649687785834
+  },
+  "tags": [],
+  "params": {
+    "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
+    "connection": "postgres_conn",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${projectKey}_basketball_sf_sql_joined",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Player",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "Age_min",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Year",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Pos",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "Injury",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "GS",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "1980_sum",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Age",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "Tm",
+        "type": "string",
+        "originalType": "VARCHAR",
+        "maxLength": 4194304
+      },
+      {
+        "name": "has_TOT",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "G",
+        "type": "bigint",
+        "originalType": "NUMBER"
+      },
+      {
+        "name": "MP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FG",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FGA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FGP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3P",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3PA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "3PP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2P",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2PA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "2PP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "EFGP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FT",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FTA",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "FTP",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "ORB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "DRB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "TRB",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "AST",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "STL",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "BLK",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "TO",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "PF",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "PTS",
+        "type": "double",
+        "originalType": "DOUBLE"
+      },
+      {
+        "name": "Exp",
+        "type": "double",
+        "originalType": "DOUBLE"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
